@@ -6,9 +6,9 @@ function Navbar() {
     return (
         <div className={styles.navbar}>
             <ul>
-                <li><Nav.Link href='Presentation'>Apresentação</Nav.Link></li>
-                <li><Nav.Link href='Skills'>habilidades</Nav.Link></li>
-                <li><Nav.Link href='Projects'>Projetos</Nav.Link></li>
+                <li><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
+                <li><Nav.Link href='#Skills'>habilidades</Nav.Link></li>
+                <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
                 <li><a target='blank' href='https://www.instagram.com/lucas_souza11y/'><FaInstagram size={30}/></a></li>
